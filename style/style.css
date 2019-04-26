@@ -1,3 +1,43 @@
 *{
     
 }
+img{
+    width: 10%;
+}
+h1{
+    width: 35%;
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+}
+header nav{
+    width: 50%;
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    width: 24%;
+}
+li > a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #0ff000;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 1em;
+    transition-duration: 1s;
+}
+li>a:hover{
+    color: #fff;
+    background-color: #287e27;
+}
+aside{
+    width: 24%;
+    float: right;
+}
+main{
+    width: 75%;
+    float: left;
+}
